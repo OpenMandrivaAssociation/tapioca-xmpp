@@ -1,9 +1,9 @@
 Summary:	Tapioca is a voip framework
 Name:		tapioca-xmpp
 Version:	0.3.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	LGPL
-Group:		Multimedia/Video
+Group:		Video
 URL:		http://sourceforge.net/projects/tapioca-voip
 Source0:	http://dl.sf.net/tapioca-voip/%{name}-%{version}.tar.bz2
 Patch0:		tapioca-xmpp-0.3.0-new_libjingle_libnames.diff
