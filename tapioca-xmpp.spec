@@ -17,6 +17,7 @@ BuildRequires:	libjingle-devel
 BuildRequires:	autoconf2.5
 BuildRequires:	automake1.7
 BuildRequires:	libtool
+Buildroot:	%{_tmppath}/%{name}-buildroot 
 
 %description
 Tapioca is a framework for Voice over IP (VoIP) and Instant Messaging (IM). 
