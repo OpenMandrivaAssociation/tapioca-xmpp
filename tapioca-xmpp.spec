@@ -1,4 +1,4 @@
-Summary:	Tapioca is a voip framework
+Summary:	VoIP framework
 Name:		tapioca-xmpp
 Version:	0.3.0
 Release:	%mkrel 4
