@@ -1,7 +1,7 @@
 Summary:	VoIP framework
 Name:		tapioca-xmpp
 Version:	0.3.0
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	LGPL
 Group:		Video
 URL:		http://sourceforge.net/projects/tapioca-voip
