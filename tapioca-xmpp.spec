@@ -1,7 +1,7 @@
 Summary:	VoIP framework
 Name:		tapioca-xmpp
 Version:	0.3.0
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	LGPL
 Group:		Video
 URL:		http://sourceforge.net/projects/tapioca-voip
@@ -15,7 +15,7 @@ BuildRequires:  libdbus-glib >= 0.36
 BuildRequires:	tapioca-devel
 BuildRequires:	libjingle-devel
 BuildRequires:	autoconf2.5
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	libtool
 Buildroot:	%{_tmppath}/%{name}-buildroot 
 
@@ -45,7 +45,7 @@ perl -pi -e "s|/lib\b|/%{_lib}|g" configure*
 %build
 rm -rf autom4te.cache
 rm -f configure
-libtoolize --copy --force; aclocal-1.7 -I m4; automake-1.7 --add-missing --copy --foreign; autoconf
+libtoolize --copy --force; aclocal -I m4; automake --add-missing --copy --foreign; autoconf
 
 %configure2_5x
 
