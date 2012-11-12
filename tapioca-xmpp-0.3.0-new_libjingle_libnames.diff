@@ -1,0 +1,11 @@
+--- configure.ac	2006-03-20 20:49:39.000000000 +0100
++++ configure.ac.oden	2006-06-20 15:53:39.000000000 +0200
+@@ -73,7 +73,7 @@
+ LIBJINGLE_MAJORMINOR=0.3
+ LIBJINGLE_REQUIRED=0.3
+ PKG_CHECK_MODULES(LIBJINGLE, 
+-  jinglebase-$LIBJINGLE_MAJORMINOR jinglep2p-$LIBJINGLE_MAJORMINOR jinglexmllite-$LIBJINGLE_MAJORMINOR jinglexmpp-$LIBJINGLE_MAJORMINOR jinglesession-$LIBJINGLE_MAJORMINOR, 
++  jinglebase jinglep2p jinglexmllite jinglexmpp jinglesession, 
+   HAVE_LIBJINGLE=yes, HAVE_LIBJINGLE=no)
+ 
+ dnl Give error and exit if we don't have glib
