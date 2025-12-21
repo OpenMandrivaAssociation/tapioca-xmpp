@@ -8,6 +8,8 @@ URL:		https://sourceforge.net/projects/tapioca-voip
 Source0:	http://dl.sf.net/tapioca-voip/%{name}-%{version}.tar.bz2
 Patch0:		tapioca-xmpp-0.3.0-new_libjingle_libnames.diff
 Requires:	tapioca
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	glib2-devel 
 BuildRequires:  pkgconfig
 BuildRequires:  libdbus-devel >= 0.36
